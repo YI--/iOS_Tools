@@ -14,6 +14,7 @@
 		EAF6ABA9206CBDF600DE0B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF6ABA7206CBDF600DE0B8E /* LaunchScreen.storyboard */; };
 		EAF6ABAC206CBDF600DE0B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF6ABAB206CBDF600DE0B8E /* main.m */; };
 		EAF6ABBC206CCD1600DE0B8E /* Yiem_NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF6ABBB206CCD1600DE0B8E /* Yiem_NSString+MD5.m */; };
+		EAF6ABBF206CD5B000DE0B8E /* Yiem_NSString+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF6ABBE206CD5B000DE0B8E /* Yiem_NSString+Time.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		EAF6ABAB206CBDF600DE0B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAF6ABBA206CCD1600DE0B8E /* Yiem_NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yiem_NSString+MD5.h"; sourceTree = "<group>"; };
 		EAF6ABBB206CCD1600DE0B8E /* Yiem_NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Yiem_NSString+MD5.m"; sourceTree = "<group>"; };
+		EAF6ABBD206CD5B000DE0B8E /* Yiem_NSString+Time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yiem_NSString+Time.h"; sourceTree = "<group>"; };
+		EAF6ABBE206CD5B000DE0B8E /* Yiem_NSString+Time.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Yiem_NSString+Time.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				EAF6ABBA206CCD1600DE0B8E /* Yiem_NSString+MD5.h */,
 				EAF6ABBB206CCD1600DE0B8E /* Yiem_NSString+MD5.m */,
+				EAF6ABBD206CD5B000DE0B8E /* Yiem_NSString+Time.h */,
+				EAF6ABBE206CD5B000DE0B8E /* Yiem_NSString+Time.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			files = (
 				EAF6ABA1206CBDF600DE0B8E /* ViewController.m in Sources */,
 				EAF6ABAC206CBDF600DE0B8E /* main.m in Sources */,
+				EAF6ABBF206CD5B000DE0B8E /* Yiem_NSString+Time.m in Sources */,
 				EAF6ABBC206CCD1600DE0B8E /* Yiem_NSString+MD5.m in Sources */,
 				EAF6AB9E206CBDF600DE0B8E /* AppDelegate.m in Sources */,
 			);

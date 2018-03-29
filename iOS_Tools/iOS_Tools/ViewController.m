@@ -10,7 +10,7 @@
 
 
 #import "Yiem_NSString+MD5.h"
-
+#import "Yiem_NSString+Time.h"
 
 @interface ViewController ()
 
@@ -23,6 +23,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
+    
+    NSLog(@"%@----%@----%@", [Yiem_NSString_Time getCurrentDateString:@"yyyy-MM-dd-HH-mm-ss"], [Yiem_NSString_Time getCurrentDateString:@"yyyyMMddHHmmss"], [Yiem_NSString_Time getCurrentDateString:@"yyyy年MM月dd日HH点mm分ss秒"]);
 
     
 }
