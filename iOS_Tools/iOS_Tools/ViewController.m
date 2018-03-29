@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 
+#import "Yiem_NSString+MD5.h"
+
 
 @interface ViewController ()
 
@@ -20,11 +22,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-
     
+
     
 }
-
 
 
 

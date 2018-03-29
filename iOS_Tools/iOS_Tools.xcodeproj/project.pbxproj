@@ -13,6 +13,7 @@
 		EAF6ABA6206CBDF600DE0B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF6ABA5206CBDF600DE0B8E /* Assets.xcassets */; };
 		EAF6ABA9206CBDF600DE0B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF6ABA7206CBDF600DE0B8E /* LaunchScreen.storyboard */; };
 		EAF6ABAC206CBDF600DE0B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF6ABAB206CBDF600DE0B8E /* main.m */; };
+		EAF6ABBC206CCD1600DE0B8E /* Yiem_NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF6ABBB206CCD1600DE0B8E /* Yiem_NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EAF6ABA8206CBDF600DE0B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAF6ABAA206CBDF600DE0B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF6ABAB206CBDF600DE0B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAF6ABBA206CCD1600DE0B8E /* Yiem_NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yiem_NSString+MD5.h"; sourceTree = "<group>"; };
+		EAF6ABBB206CCD1600DE0B8E /* Yiem_NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Yiem_NSString+MD5.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		EAF6ABB3206CBED500DE0B8E /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				EAF6ABBA206CCD1600DE0B8E /* Yiem_NSString+MD5.h */,
+				EAF6ABBB206CCD1600DE0B8E /* Yiem_NSString+MD5.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			files = (
 				EAF6ABA1206CBDF600DE0B8E /* ViewController.m in Sources */,
 				EAF6ABAC206CBDF600DE0B8E /* main.m in Sources */,
+				EAF6ABBC206CCD1600DE0B8E /* Yiem_NSString+MD5.m in Sources */,
 				EAF6AB9E206CBDF600DE0B8E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
